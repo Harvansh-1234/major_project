@@ -71,7 +71,7 @@ const HomeHeader = ({ props }) => {
               <ListItemText primary="Measurements" />
             </ListItemButton>
           </a>
-          <a href="/diet" className="link" onClick={handleDrawerToggle}>
+          {/* <a href="/diet" className="link" onClick={handleDrawerToggle}>
             <ListItemButton>
               <ListItemText primary="Diet" />
             </ListItemButton>
@@ -85,7 +85,7 @@ const HomeHeader = ({ props }) => {
             <ListItemButton>
               <ListItemText primary="Workout" />
             </ListItemButton>
-          </a>
+          </a> */}
           <Divider
             color="#fff"
             sx={{
@@ -177,7 +177,7 @@ const HomeHeader = ({ props }) => {
               <a href="/bm" className="link">
                 <Button variant="h6">Measurements</Button>
               </a>
-              <a href="/diet" className="link">
+              {/* <a href="/diet" className="link">
                 <Button variant="h6">Diet</Button>
               </a>
               <a href="/yoga" className="link">
@@ -185,7 +185,7 @@ const HomeHeader = ({ props }) => {
               </a>
               <a href="/workout" className="link">
                 <Button variant="h6">Workout</Button>
-              </a>
+              </a> */}
               <Link to="/" className="link">
                 <Button
                   variant="contained"

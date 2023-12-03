@@ -46,13 +46,13 @@ function App() {
 
         <Route path="/home" element={<Home />} exact />
 
-        <Route path="/Diet" element={<Diet />} exact />
+        {/* <Route path="/Diet" element={<Diet />} exact />
         <Route path="/yoga" element={<Yoga />} exact />
 
         <Route path="/weightloss" element={<Weightloss />} />
         <Route path="/weightgain" element={<Weightgain />} />
-        <Route path="/healthy" element={<Healthy />} />
-        <Route path="/bicepcurls" element={<BicepCurls />} />
+        <Route path="/healthy" element={<Healthy />} /> */}
+        {/* <Route path="/bicepcurls" element={<BicepCurls />} />
         <Route path="/squats" element={<Squats />} exact />
         <Route path="/pushups" element={<PushUps />} exact />
         <Route
@@ -63,7 +63,7 @@ function App() {
         <Route path="/workout" exact element={<Workout />} />
         <Route path="/virabhadrasana" element={<Virabhadrasana />} />
         <Route path="/trikonasana" element={<Trikonasana />} />
-        <Route path="/AdhoMukhaSvanasana" element={<AdhoMukhaSvanasana />} />
+        <Route path="/AdhoMukhaSvanasana" element={<AdhoMukhaSvanasana />} /> */}
       </Routes>
       {/* footer */}
       <Container
